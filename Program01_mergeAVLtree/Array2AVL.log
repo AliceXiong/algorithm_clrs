@@ -1,0 +1,339 @@
+INFO:root:********************************
+INFO:root:Now lets build Tree1 with 10 elements sorted array 
+INFO:root:Input sorted array is [874, 8145, 9588, 12052, 15150, 19016, 22839, 35563, 39370, 42947]
+INFO:root:In the 1th fill_AVL step, I inserted node with key 15150
+INFO:root:In the 2th fill_AVL step, I inserted node with key 8145
+INFO:root:In the 3th fill_AVL step, I inserted node with key 874
+INFO:root:In the 1th update height step, I updated height value of a node with key 874
+INFO:root:In the 1th update balance step, I updated balance value of a node with key 874
+INFO:root:In the 6th fill_AVL step, I inserted node with key 9588
+INFO:root:In the 8th fill_AVL step, I inserted node with key 12052
+INFO:root:In the 2th update height step, I updated height value of a node with key 12052
+INFO:root:In the 2th update balance step, I updated balance value of a node with key 12052
+INFO:root:In the 3th update height step, I updated height value of a node with key 9588
+INFO:root:In the 3th update balance step, I updated balance value of a node with key 9588
+INFO:root:In the 4th update height step, I updated height value of a node with key 8145
+INFO:root:In the 4th update balance step, I updated balance value of a node with key 8145
+INFO:root:In the 11th fill_AVL step, I inserted node with key 35563
+INFO:root:In the 12th fill_AVL step, I inserted node with key 19016
+INFO:root:In the 14th fill_AVL step, I inserted node with key 22839
+INFO:root:In the 5th update height step, I updated height value of a node with key 22839
+INFO:root:In the 5th update balance step, I updated balance value of a node with key 22839
+INFO:root:In the 6th update height step, I updated height value of a node with key 19016
+INFO:root:In the 6th update balance step, I updated balance value of a node with key 19016
+INFO:root:In the 17th fill_AVL step, I inserted node with key 39370
+INFO:root:In the 19th fill_AVL step, I inserted node with key 42947
+INFO:root:In the 7th update height step, I updated height value of a node with key 42947
+INFO:root:In the 7th update balance step, I updated balance value of a node with key 42947
+INFO:root:In the 8th update height step, I updated height value of a node with key 39370
+INFO:root:In the 8th update balance step, I updated balance value of a node with key 39370
+INFO:root:In the 9th update height step, I updated height value of a node with key 35563
+INFO:root:In the 9th update balance step, I updated balance value of a node with key 35563
+INFO:root:In the 10th update height step, I updated height value of a node with key 15150
+INFO:root:In the 10th update balance step, I updated balance value of a node with key 15150
+INFO:root:when Array has 10 values, takes 21 fill_avl steps to fill each element into an AVL trees
+INFO:root:********************************
+INFO:root:Now lets build Tree1 with 100 elements sorted array 
+INFO:root:Input sorted array is [216, 763, 1428, 1449, 1782, 2782, 3297, 4506, 5227, 5368, 5954, 6168, 6690, 7494, 7761, 7922, 8350, 8811, 9538, 9864, 10167, 11592, 12250, 13270, 13791, 13915, 14904, 15455, 15497, 15630, 16164, 16459, 16849, 17185, 17753, 19156, 19350, 19563, 20056, 20873, 21640, 22104, 22228, 22312, 22399, 22758, 23307, 23609, 23978, 25536, 25673, 25852, 26621, 28101, 28327, 28645, 29038, 29152, 29813, 30448, 30500, 30707, 30726, 31576, 32004, 32341, 32493, 32856, 34008, 34651, 34772, 35227, 36447, 36764, 36771, 36805, 36869, 37268, 37323, 38490, 38869, 39805, 40317, 41848, 42290, 44056, 44065, 44295, 44674, 44950, 45647, 45652, 45897, 46085, 46339, 47839, 48201, 48502, 48704, 49740]
+INFO:root:In the 1th fill_AVL step, I inserted node with key 25536
+INFO:root:In the 2th fill_AVL step, I inserted node with key 13791
+INFO:root:In the 3th fill_AVL step, I inserted node with key 6168
+INFO:root:In the 4th fill_AVL step, I inserted node with key 2782
+INFO:root:In the 5th fill_AVL step, I inserted node with key 1428
+INFO:root:In the 6th fill_AVL step, I inserted node with key 216
+INFO:root:In the 8th fill_AVL step, I inserted node with key 763
+INFO:root:In the 11th update height step, I updated height value of a node with key 763
+INFO:root:In the 11th update balance step, I updated balance value of a node with key 763
+INFO:root:In the 12th update height step, I updated height value of a node with key 216
+INFO:root:In the 12th update balance step, I updated balance value of a node with key 216
+INFO:root:In the 11th fill_AVL step, I inserted node with key 1449
+INFO:root:In the 13th fill_AVL step, I inserted node with key 1782
+INFO:root:In the 13th update height step, I updated height value of a node with key 1782
+INFO:root:In the 13th update balance step, I updated balance value of a node with key 1782
+INFO:root:In the 14th update height step, I updated height value of a node with key 1449
+INFO:root:In the 14th update balance step, I updated balance value of a node with key 1449
+INFO:root:In the 15th update height step, I updated height value of a node with key 1428
+INFO:root:In the 15th update balance step, I updated balance value of a node with key 1428
+INFO:root:In the 16th fill_AVL step, I inserted node with key 5227
+INFO:root:In the 17th fill_AVL step, I inserted node with key 3297
+INFO:root:In the 19th fill_AVL step, I inserted node with key 4506
+INFO:root:In the 16th update height step, I updated height value of a node with key 4506
+INFO:root:In the 16th update balance step, I updated balance value of a node with key 4506
+INFO:root:In the 17th update height step, I updated height value of a node with key 3297
+INFO:root:In the 17th update balance step, I updated balance value of a node with key 3297
+INFO:root:In the 22th fill_AVL step, I inserted node with key 5368
+INFO:root:In the 24th fill_AVL step, I inserted node with key 5954
+INFO:root:In the 18th update height step, I updated height value of a node with key 5954
+INFO:root:In the 18th update balance step, I updated balance value of a node with key 5954
+INFO:root:In the 19th update height step, I updated height value of a node with key 5368
+INFO:root:In the 19th update balance step, I updated balance value of a node with key 5368
+INFO:root:In the 20th update height step, I updated height value of a node with key 5227
+INFO:root:In the 20th update balance step, I updated balance value of a node with key 5227
+INFO:root:In the 21th update height step, I updated height value of a node with key 2782
+INFO:root:In the 21th update balance step, I updated balance value of a node with key 2782
+INFO:root:In the 27th fill_AVL step, I inserted node with key 8811
+INFO:root:In the 28th fill_AVL step, I inserted node with key 7761
+INFO:root:In the 29th fill_AVL step, I inserted node with key 6690
+INFO:root:In the 31th fill_AVL step, I inserted node with key 7494
+INFO:root:In the 22th update height step, I updated height value of a node with key 7494
+INFO:root:In the 22th update balance step, I updated balance value of a node with key 7494
+INFO:root:In the 23th update height step, I updated height value of a node with key 6690
+INFO:root:In the 23th update balance step, I updated balance value of a node with key 6690
+INFO:root:In the 34th fill_AVL step, I inserted node with key 7922
+INFO:root:In the 36th fill_AVL step, I inserted node with key 8350
+INFO:root:In the 24th update height step, I updated height value of a node with key 8350
+INFO:root:In the 24th update balance step, I updated balance value of a node with key 8350
+INFO:root:In the 25th update height step, I updated height value of a node with key 7922
+INFO:root:In the 25th update balance step, I updated balance value of a node with key 7922
+INFO:root:In the 26th update height step, I updated height value of a node with key 7761
+INFO:root:In the 26th update balance step, I updated balance value of a node with key 7761
+INFO:root:In the 39th fill_AVL step, I inserted node with key 10167
+INFO:root:In the 40th fill_AVL step, I inserted node with key 9538
+INFO:root:In the 42th fill_AVL step, I inserted node with key 9864
+INFO:root:In the 27th update height step, I updated height value of a node with key 9864
+INFO:root:In the 27th update balance step, I updated balance value of a node with key 9864
+INFO:root:In the 28th update height step, I updated height value of a node with key 9538
+INFO:root:In the 28th update balance step, I updated balance value of a node with key 9538
+INFO:root:In the 45th fill_AVL step, I inserted node with key 12250
+INFO:root:In the 46th fill_AVL step, I inserted node with key 11592
+INFO:root:In the 29th update height step, I updated height value of a node with key 11592
+INFO:root:In the 29th update balance step, I updated balance value of a node with key 11592
+INFO:root:In the 49th fill_AVL step, I inserted node with key 13270
+INFO:root:In the 30th update height step, I updated height value of a node with key 13270
+INFO:root:In the 30th update balance step, I updated balance value of a node with key 13270
+INFO:root:In the 31th update height step, I updated height value of a node with key 12250
+INFO:root:In the 31th update balance step, I updated balance value of a node with key 12250
+INFO:root:In the 32th update height step, I updated height value of a node with key 10167
+INFO:root:In the 32th update balance step, I updated balance value of a node with key 10167
+INFO:root:In the 33th update height step, I updated height value of a node with key 8811
+INFO:root:In the 33th update balance step, I updated balance value of a node with key 8811
+INFO:root:In the 34th update height step, I updated height value of a node with key 6168
+INFO:root:In the 34th update balance step, I updated balance value of a node with key 6168
+INFO:root:In the 52th fill_AVL step, I inserted node with key 19350
+INFO:root:In the 53th fill_AVL step, I inserted node with key 16164
+INFO:root:In the 54th fill_AVL step, I inserted node with key 15455
+INFO:root:In the 55th fill_AVL step, I inserted node with key 13915
+INFO:root:In the 57th fill_AVL step, I inserted node with key 14904
+INFO:root:In the 35th update height step, I updated height value of a node with key 14904
+INFO:root:In the 35th update balance step, I updated balance value of a node with key 14904
+INFO:root:In the 36th update height step, I updated height value of a node with key 13915
+INFO:root:In the 36th update balance step, I updated balance value of a node with key 13915
+INFO:root:In the 60th fill_AVL step, I inserted node with key 15497
+INFO:root:In the 62th fill_AVL step, I inserted node with key 15630
+INFO:root:In the 37th update height step, I updated height value of a node with key 15630
+INFO:root:In the 37th update balance step, I updated balance value of a node with key 15630
+INFO:root:In the 38th update height step, I updated height value of a node with key 15497
+INFO:root:In the 38th update balance step, I updated balance value of a node with key 15497
+INFO:root:In the 39th update height step, I updated height value of a node with key 15455
+INFO:root:In the 39th update balance step, I updated balance value of a node with key 15455
+INFO:root:In the 65th fill_AVL step, I inserted node with key 17185
+INFO:root:In the 66th fill_AVL step, I inserted node with key 16459
+INFO:root:In the 68th fill_AVL step, I inserted node with key 16849
+INFO:root:In the 40th update height step, I updated height value of a node with key 16849
+INFO:root:In the 40th update balance step, I updated balance value of a node with key 16849
+INFO:root:In the 41th update height step, I updated height value of a node with key 16459
+INFO:root:In the 41th update balance step, I updated balance value of a node with key 16459
+INFO:root:In the 71th fill_AVL step, I inserted node with key 17753
+INFO:root:In the 73th fill_AVL step, I inserted node with key 19156
+INFO:root:In the 42th update height step, I updated height value of a node with key 19156
+INFO:root:In the 42th update balance step, I updated balance value of a node with key 19156
+INFO:root:In the 43th update height step, I updated height value of a node with key 17753
+INFO:root:In the 43th update balance step, I updated balance value of a node with key 17753
+INFO:root:In the 44th update height step, I updated height value of a node with key 17185
+INFO:root:In the 44th update balance step, I updated balance value of a node with key 17185
+INFO:root:In the 45th update height step, I updated height value of a node with key 16164
+INFO:root:In the 45th update balance step, I updated balance value of a node with key 16164
+INFO:root:In the 76th fill_AVL step, I inserted node with key 22228
+INFO:root:In the 77th fill_AVL step, I inserted node with key 20873
+INFO:root:In the 78th fill_AVL step, I inserted node with key 19563
+INFO:root:In the 80th fill_AVL step, I inserted node with key 20056
+INFO:root:In the 46th update height step, I updated height value of a node with key 20056
+INFO:root:In the 46th update balance step, I updated balance value of a node with key 20056
+INFO:root:In the 47th update height step, I updated height value of a node with key 19563
+INFO:root:In the 47th update balance step, I updated balance value of a node with key 19563
+INFO:root:In the 83th fill_AVL step, I inserted node with key 21640
+INFO:root:In the 85th fill_AVL step, I inserted node with key 22104
+INFO:root:In the 48th update height step, I updated height value of a node with key 22104
+INFO:root:In the 48th update balance step, I updated balance value of a node with key 22104
+INFO:root:In the 49th update height step, I updated height value of a node with key 21640
+INFO:root:In the 49th update balance step, I updated balance value of a node with key 21640
+INFO:root:In the 50th update height step, I updated height value of a node with key 20873
+INFO:root:In the 50th update balance step, I updated balance value of a node with key 20873
+INFO:root:In the 88th fill_AVL step, I inserted node with key 22758
+INFO:root:In the 89th fill_AVL step, I inserted node with key 22312
+INFO:root:In the 91th fill_AVL step, I inserted node with key 22399
+INFO:root:In the 51th update height step, I updated height value of a node with key 22399
+INFO:root:In the 51th update balance step, I updated balance value of a node with key 22399
+INFO:root:In the 52th update height step, I updated height value of a node with key 22312
+INFO:root:In the 52th update balance step, I updated balance value of a node with key 22312
+INFO:root:In the 94th fill_AVL step, I inserted node with key 23609
+INFO:root:In the 95th fill_AVL step, I inserted node with key 23307
+INFO:root:In the 53th update height step, I updated height value of a node with key 23307
+INFO:root:In the 53th update balance step, I updated balance value of a node with key 23307
+INFO:root:In the 98th fill_AVL step, I inserted node with key 23978
+INFO:root:In the 54th update height step, I updated height value of a node with key 23978
+INFO:root:In the 54th update balance step, I updated balance value of a node with key 23978
+INFO:root:In the 55th update height step, I updated height value of a node with key 23609
+INFO:root:In the 55th update balance step, I updated balance value of a node with key 23609
+INFO:root:In the 56th update height step, I updated height value of a node with key 22758
+INFO:root:In the 56th update balance step, I updated balance value of a node with key 22758
+INFO:root:In the 57th update height step, I updated height value of a node with key 22228
+INFO:root:In the 57th update balance step, I updated balance value of a node with key 22228
+INFO:root:In the 58th update height step, I updated height value of a node with key 19350
+INFO:root:In the 58th update balance step, I updated balance value of a node with key 19350
+INFO:root:In the 59th update height step, I updated height value of a node with key 13791
+INFO:root:In the 59th update balance step, I updated balance value of a node with key 13791
+INFO:root:In the 101th fill_AVL step, I inserted node with key 36771
+INFO:root:In the 102th fill_AVL step, I inserted node with key 30707
+INFO:root:In the 103th fill_AVL step, I inserted node with key 28645
+INFO:root:In the 104th fill_AVL step, I inserted node with key 26621
+INFO:root:In the 105th fill_AVL step, I inserted node with key 25673
+INFO:root:In the 107th fill_AVL step, I inserted node with key 25852
+INFO:root:In the 60th update height step, I updated height value of a node with key 25852
+INFO:root:In the 60th update balance step, I updated balance value of a node with key 25852
+INFO:root:In the 61th update height step, I updated height value of a node with key 25673
+INFO:root:In the 61th update balance step, I updated balance value of a node with key 25673
+INFO:root:In the 110th fill_AVL step, I inserted node with key 28101
+INFO:root:In the 112th fill_AVL step, I inserted node with key 28327
+INFO:root:In the 62th update height step, I updated height value of a node with key 28327
+INFO:root:In the 62th update balance step, I updated balance value of a node with key 28327
+INFO:root:In the 63th update height step, I updated height value of a node with key 28101
+INFO:root:In the 63th update balance step, I updated balance value of a node with key 28101
+INFO:root:In the 64th update height step, I updated height value of a node with key 26621
+INFO:root:In the 64th update balance step, I updated balance value of a node with key 26621
+INFO:root:In the 115th fill_AVL step, I inserted node with key 29813
+INFO:root:In the 116th fill_AVL step, I inserted node with key 29038
+INFO:root:In the 118th fill_AVL step, I inserted node with key 29152
+INFO:root:In the 65th update height step, I updated height value of a node with key 29152
+INFO:root:In the 65th update balance step, I updated balance value of a node with key 29152
+INFO:root:In the 66th update height step, I updated height value of a node with key 29038
+INFO:root:In the 66th update balance step, I updated balance value of a node with key 29038
+INFO:root:In the 121th fill_AVL step, I inserted node with key 30448
+INFO:root:In the 123th fill_AVL step, I inserted node with key 30500
+INFO:root:In the 67th update height step, I updated height value of a node with key 30500
+INFO:root:In the 67th update balance step, I updated balance value of a node with key 30500
+INFO:root:In the 68th update height step, I updated height value of a node with key 30448
+INFO:root:In the 68th update balance step, I updated balance value of a node with key 30448
+INFO:root:In the 69th update height step, I updated height value of a node with key 29813
+INFO:root:In the 69th update balance step, I updated balance value of a node with key 29813
+INFO:root:In the 70th update height step, I updated height value of a node with key 28645
+INFO:root:In the 70th update balance step, I updated balance value of a node with key 28645
+INFO:root:In the 126th fill_AVL step, I inserted node with key 32856
+INFO:root:In the 127th fill_AVL step, I inserted node with key 32004
+INFO:root:In the 128th fill_AVL step, I inserted node with key 30726
+INFO:root:In the 130th fill_AVL step, I inserted node with key 31576
+INFO:root:In the 71th update height step, I updated height value of a node with key 31576
+INFO:root:In the 71th update balance step, I updated balance value of a node with key 31576
+INFO:root:In the 72th update height step, I updated height value of a node with key 30726
+INFO:root:In the 72th update balance step, I updated balance value of a node with key 30726
+INFO:root:In the 133th fill_AVL step, I inserted node with key 32341
+INFO:root:In the 135th fill_AVL step, I inserted node with key 32493
+INFO:root:In the 73th update height step, I updated height value of a node with key 32493
+INFO:root:In the 73th update balance step, I updated balance value of a node with key 32493
+INFO:root:In the 74th update height step, I updated height value of a node with key 32341
+INFO:root:In the 74th update balance step, I updated balance value of a node with key 32341
+INFO:root:In the 75th update height step, I updated height value of a node with key 32004
+INFO:root:In the 75th update balance step, I updated balance value of a node with key 32004
+INFO:root:In the 138th fill_AVL step, I inserted node with key 34772
+INFO:root:In the 139th fill_AVL step, I inserted node with key 34008
+INFO:root:In the 141th fill_AVL step, I inserted node with key 34651
+INFO:root:In the 76th update height step, I updated height value of a node with key 34651
+INFO:root:In the 76th update balance step, I updated balance value of a node with key 34651
+INFO:root:In the 77th update height step, I updated height value of a node with key 34008
+INFO:root:In the 77th update balance step, I updated balance value of a node with key 34008
+INFO:root:In the 144th fill_AVL step, I inserted node with key 36447
+INFO:root:In the 145th fill_AVL step, I inserted node with key 35227
+INFO:root:In the 78th update height step, I updated height value of a node with key 35227
+INFO:root:In the 78th update balance step, I updated balance value of a node with key 35227
+INFO:root:In the 148th fill_AVL step, I inserted node with key 36764
+INFO:root:In the 79th update height step, I updated height value of a node with key 36764
+INFO:root:In the 79th update balance step, I updated balance value of a node with key 36764
+INFO:root:In the 80th update height step, I updated height value of a node with key 36447
+INFO:root:In the 80th update balance step, I updated balance value of a node with key 36447
+INFO:root:In the 81th update height step, I updated height value of a node with key 34772
+INFO:root:In the 81th update balance step, I updated balance value of a node with key 34772
+INFO:root:In the 82th update height step, I updated height value of a node with key 32856
+INFO:root:In the 82th update balance step, I updated balance value of a node with key 32856
+INFO:root:In the 83th update height step, I updated height value of a node with key 30707
+INFO:root:In the 83th update balance step, I updated balance value of a node with key 30707
+INFO:root:In the 151th fill_AVL step, I inserted node with key 44295
+INFO:root:In the 152th fill_AVL step, I inserted node with key 38869
+INFO:root:In the 153th fill_AVL step, I inserted node with key 37268
+INFO:root:In the 154th fill_AVL step, I inserted node with key 36805
+INFO:root:In the 156th fill_AVL step, I inserted node with key 36869
+INFO:root:In the 84th update height step, I updated height value of a node with key 36869
+INFO:root:In the 84th update balance step, I updated balance value of a node with key 36869
+INFO:root:In the 85th update height step, I updated height value of a node with key 36805
+INFO:root:In the 85th update balance step, I updated balance value of a node with key 36805
+INFO:root:In the 159th fill_AVL step, I inserted node with key 37323
+INFO:root:In the 161th fill_AVL step, I inserted node with key 38490
+INFO:root:In the 86th update height step, I updated height value of a node with key 38490
+INFO:root:In the 86th update balance step, I updated balance value of a node with key 38490
+INFO:root:In the 87th update height step, I updated height value of a node with key 37323
+INFO:root:In the 87th update balance step, I updated balance value of a node with key 37323
+INFO:root:In the 88th update height step, I updated height value of a node with key 37268
+INFO:root:In the 88th update balance step, I updated balance value of a node with key 37268
+INFO:root:In the 164th fill_AVL step, I inserted node with key 41848
+INFO:root:In the 165th fill_AVL step, I inserted node with key 39805
+INFO:root:In the 167th fill_AVL step, I inserted node with key 40317
+INFO:root:In the 89th update height step, I updated height value of a node with key 40317
+INFO:root:In the 89th update balance step, I updated balance value of a node with key 40317
+INFO:root:In the 90th update height step, I updated height value of a node with key 39805
+INFO:root:In the 90th update balance step, I updated balance value of a node with key 39805
+INFO:root:In the 170th fill_AVL step, I inserted node with key 44056
+INFO:root:In the 171th fill_AVL step, I inserted node with key 42290
+INFO:root:In the 91th update height step, I updated height value of a node with key 42290
+INFO:root:In the 91th update balance step, I updated balance value of a node with key 42290
+INFO:root:In the 174th fill_AVL step, I inserted node with key 44065
+INFO:root:In the 92th update height step, I updated height value of a node with key 44065
+INFO:root:In the 92th update balance step, I updated balance value of a node with key 44065
+INFO:root:In the 93th update height step, I updated height value of a node with key 44056
+INFO:root:In the 93th update balance step, I updated balance value of a node with key 44056
+INFO:root:In the 94th update height step, I updated height value of a node with key 41848
+INFO:root:In the 94th update balance step, I updated balance value of a node with key 41848
+INFO:root:In the 95th update height step, I updated height value of a node with key 38869
+INFO:root:In the 95th update balance step, I updated balance value of a node with key 38869
+INFO:root:In the 177th fill_AVL step, I inserted node with key 46085
+INFO:root:In the 178th fill_AVL step, I inserted node with key 45647
+INFO:root:In the 179th fill_AVL step, I inserted node with key 44674
+INFO:root:In the 181th fill_AVL step, I inserted node with key 44950
+INFO:root:In the 96th update height step, I updated height value of a node with key 44950
+INFO:root:In the 96th update balance step, I updated balance value of a node with key 44950
+INFO:root:In the 97th update height step, I updated height value of a node with key 44674
+INFO:root:In the 97th update balance step, I updated balance value of a node with key 44674
+INFO:root:In the 184th fill_AVL step, I inserted node with key 45652
+INFO:root:In the 186th fill_AVL step, I inserted node with key 45897
+INFO:root:In the 98th update height step, I updated height value of a node with key 45897
+INFO:root:In the 98th update balance step, I updated balance value of a node with key 45897
+INFO:root:In the 99th update height step, I updated height value of a node with key 45652
+INFO:root:In the 99th update balance step, I updated balance value of a node with key 45652
+INFO:root:In the 100th update height step, I updated height value of a node with key 45647
+INFO:root:In the 100th update balance step, I updated balance value of a node with key 45647
+INFO:root:In the 189th fill_AVL step, I inserted node with key 48201
+INFO:root:In the 190th fill_AVL step, I inserted node with key 46339
+INFO:root:In the 192th fill_AVL step, I inserted node with key 47839
+INFO:root:In the 101th update height step, I updated height value of a node with key 47839
+INFO:root:In the 101th update balance step, I updated balance value of a node with key 47839
+INFO:root:In the 102th update height step, I updated height value of a node with key 46339
+INFO:root:In the 102th update balance step, I updated balance value of a node with key 46339
+INFO:root:In the 195th fill_AVL step, I inserted node with key 48704
+INFO:root:In the 196th fill_AVL step, I inserted node with key 48502
+INFO:root:In the 103th update height step, I updated height value of a node with key 48502
+INFO:root:In the 103th update balance step, I updated balance value of a node with key 48502
+INFO:root:In the 199th fill_AVL step, I inserted node with key 49740
+INFO:root:In the 104th update height step, I updated height value of a node with key 49740
+INFO:root:In the 104th update balance step, I updated balance value of a node with key 49740
+INFO:root:In the 105th update height step, I updated height value of a node with key 48704
+INFO:root:In the 105th update balance step, I updated balance value of a node with key 48704
+INFO:root:In the 106th update height step, I updated height value of a node with key 48201
+INFO:root:In the 106th update balance step, I updated balance value of a node with key 48201
+INFO:root:In the 107th update height step, I updated height value of a node with key 46085
+INFO:root:In the 107th update balance step, I updated balance value of a node with key 46085
+INFO:root:In the 108th update height step, I updated height value of a node with key 44295
+INFO:root:In the 108th update balance step, I updated balance value of a node with key 44295
+INFO:root:In the 109th update height step, I updated height value of a node with key 36771
+INFO:root:In the 109th update balance step, I updated balance value of a node with key 36771
+INFO:root:In the 110th update height step, I updated height value of a node with key 25536
+INFO:root:In the 110th update balance step, I updated balance value of a node with key 25536
+INFO:root:when Array has 100 values, takes 201 fill_avl steps to fill each element into an AVL trees
+INFO:root:From the implementation above, I can tell that as the size of ordered array (num) grows, the empirical time complexity is always linear with the size of the array when insert each element into a AVL tree

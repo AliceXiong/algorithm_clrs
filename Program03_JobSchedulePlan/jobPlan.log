@@ -1,0 +1,181 @@
+INFO:root:******Simulate example below:*******
+INFO:root:L = [72, 83, 93, 98, 58, 92, 81, 95, 41, 1]
+INFO:root:h = [24, 93, 121, 125, 70, 27, 144, 130, 18, 72]
+INFO:root:In week 1th, the maximum value returned is 72
+INFO:root:In week 2th, the maximum value returned is 155
+INFO:root:In week 3th, the maximum value returned is 248
+INFO:root:In week 4th, the maximum value returned is 346
+INFO:root:In week 5th, the maximum value returned is 404
+INFO:root:In week 6th, the maximum value returned is 496
+INFO:root:In week 7th, the maximum value returned is 577
+INFO:root:In week 8th, the maximum value returned is 672
+INFO:root:In week 9th, the maximum value returned is 713
+INFO:root:In week 10th, the maximum value returned is 744
+INFO:root:maximum revenue received from the corrected algorithm: 744
+INFO:root:with path: L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8 --> None --> h10
+INFO:root:In week 1th, the maximum value returned is 72
+INFO:root:In week 2th, the maximum value returned is 155
+INFO:root:In week 3th, the maximum value returned is 248
+INFO:root:In week 4th, the maximum value returned is 346
+INFO:root:In week 5th, the maximum value returned is 404
+INFO:root:In week 6th, the maximum value returned is 496
+INFO:root:In week 7th, the maximum value returned is 577
+INFO:root:In week 8th, the maximum value returned is 672
+INFO:root:In week 10th, the maximum value returned is 744
+INFO:root:maximum revenue received from the flawed algorithm: 744
+INFO:root:with path: L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8 --> None --> h10
+INFO:root:******Simulate example below:*******
+INFO:root:L = [87, 50, 67, 31, 95, 77, 36, 15, 10, 75]
+INFO:root:h = [142, 72, 76, 144, 125, 74, 33, 62, 127, 138]
+INFO:root:In week 1th, the maximum value returned is 142
+INFO:root:In week 2th, the maximum value returned is 137
+INFO:root:In week 3th, the maximum value returned is 218
+INFO:root:In week 4th, the maximum value returned is 281
+INFO:root:In week 5th, the maximum value returned is 376
+INFO:root:In week 6th, the maximum value returned is 453
+INFO:root:In week 7th, the maximum value returned is 489
+INFO:root:In week 8th, the maximum value returned is 515
+INFO:root:In week 9th, the maximum value returned is 616
+INFO:root:In week 10th, the maximum value returned is 691
+INFO:root:maximum revenue received from the corrected algorithm: 691
+INFO:root:with path: L1 --> L2 --> None --> h4 --> L5 --> L6 --> L7 --> None --> h9 --> L10
+INFO:root:In week 1th, the maximum value returned is 142
+INFO:root:In week 2th, the maximum value returned is 137
+INFO:root:In week 4th, the maximum value returned is 281
+INFO:root:In week 5th, the maximum value returned is 376
+INFO:root:In week 6th, the maximum value returned is 453
+INFO:root:In week 8th, the maximum value returned is 515
+INFO:root:In week 10th, the maximum value returned is 653
+INFO:root:maximum revenue received from the flawed algorithm: 653
+INFO:root:with path: L1 --> L2 --> None --> h4 --> L5 --> L6 --> None --> h8 --> None --> h10
+INFO:root:******Simulate example below:*******
+INFO:root:L = [21, 43, 49, 14, 24, 17, 94, 47, 55, 76]
+INFO:root:h = [80, 15, 86, 111, 129, 122, 94, 47, 110, 138]
+INFO:root:In week 1th, the maximum value returned is 80
+INFO:root:In week 2th, the maximum value returned is 64
+INFO:root:In week 3th, the maximum value returned is 166
+INFO:root:In week 4th, the maximum value returned is 180
+INFO:root:In week 5th, the maximum value returned is 295
+INFO:root:In week 6th, the maximum value returned is 312
+INFO:root:In week 7th, the maximum value returned is 406
+INFO:root:In week 8th, the maximum value returned is 453
+INFO:root:In week 9th, the maximum value returned is 516
+INFO:root:In week 10th, the maximum value returned is 592
+INFO:root:maximum revenue received from the corrected algorithm: 592
+INFO:root:with path: L1 --> None --> L3 --> None --> h5 --> L6 --> L7 --> None --> h9 --> L10
+INFO:root:                                                     
+INFO:root:In week 1th, the maximum value returned is 80
+INFO:root:In week 2th, the maximum value returned is 64
+INFO:root:In week 4th, the maximum value returned is 175
+INFO:root:In week 6th, the maximum value returned is 297
+INFO:root:In week 7th, the maximum value returned is 391
+INFO:root:In week 9th, the maximum value returned is 501
+INFO:root:maximum revenue received from the flawed algorithm: 577
+INFO:root:with path: L1 --> L2 --> None --> h4 --> None --> h6 --> L7 --> None --> h9 --> L10
+INFO:root:                                                     
+INFO:root:******Simulate example below:*******
+INFO:root:L = [36, 11, 79, 56, 95, 48, 57, 69, 85, 86]
+INFO:root:h = [145, 87, 97, 110, 114, 74, 122, 88, 134, 66]
+INFO:root:In week 1th, the maximum value returned is 145
+INFO:root:In week 2th, the maximum value returned is 87
+INFO:root:In week 3th, the maximum value returned is 242
+INFO:root:In week 4th, the maximum value returned is 298
+INFO:root:In week 5th, the maximum value returned is 393
+INFO:root:In week 6th, the maximum value returned is 441
+INFO:root:In week 7th, the maximum value returned is 515
+INFO:root:In week 8th, the maximum value returned is 584
+INFO:root:In week 9th, the maximum value returned is 669
+INFO:root:In week 10th, the maximum value returned is 755
+INFO:root:maximum revenue received from the corrected algorithm: 755
+INFO:root:with path: L1 --> None --> h3 --> L4 --> L5 --> None --> h7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:In week 1th, the maximum value returned is 145
+INFO:root:In week 2th, the maximum value returned is 87
+INFO:root:In week 3th, the maximum value returned is 166
+INFO:root:In week 4th, the maximum value returned is 222
+INFO:root:In week 5th, the maximum value returned is 317
+INFO:root:In week 7th, the maximum value returned is 439
+INFO:root:In week 8th, the maximum value returned is 508
+INFO:root:In week 9th, the maximum value returned is 593
+INFO:root:maximum revenue received from the flawed algorithm: 679
+INFO:root:with path: None --> h2 --> L3 --> L4 --> L5 --> None --> h7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:******Simulate example below:*******
+INFO:root:L = [37, 36, 93, 21, 60, 29, 85, 94, 9, 63]
+INFO:root:h = [135, 52, 10, 88, 34, 104, 50, 49, 38, 11]
+INFO:root:In week 1th, the maximum value returned is 135
+INFO:root:In week 2th, the maximum value returned is 73
+INFO:root:In week 3th, the maximum value returned is 166
+INFO:root:In week 4th, the maximum value returned is 187
+INFO:root:In week 5th, the maximum value returned is 247
+INFO:root:In week 6th, the maximum value returned is 291
+INFO:root:In week 7th, the maximum value returned is 376
+INFO:root:In week 8th, the maximum value returned is 470
+INFO:root:In week 9th, the maximum value returned is 479
+INFO:root:In week 10th, the maximum value returned is 542
+INFO:root:maximum revenue received from the corrected algorithm: 542
+INFO:root:with path: L1 --> L2 --> L3 --> L4 --> None --> h6 --> L7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:In week 1th, the maximum value returned is 135
+INFO:root:In week 2th, the maximum value returned is 73
+INFO:root:In week 3th, the maximum value returned is 166
+INFO:root:In week 4th, the maximum value returned is 187
+INFO:root:In week 6th, the maximum value returned is 291
+INFO:root:In week 7th, the maximum value returned is 376
+INFO:root:In week 8th, the maximum value returned is 470
+INFO:root:In week 9th, the maximum value returned is 479
+INFO:root:maximum revenue received from the flawed algorithm: 542
+INFO:root:with path: L1 --> L2 --> L3 --> L4 --> None --> h6 --> L7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:******Simulate example below:*******
+INFO:root:L = [83, 88, 44, 29, 11, 78, 9, 74, 46, 40]
+INFO:root:h = [137, 70, 27, 104, 119, 51, 93, 121, 96, 56]
+INFO:root:In week 1th, the maximum value returned is 137
+INFO:root:In week 2th, the maximum value returned is 171
+INFO:root:In week 3th, the maximum value returned is 215
+INFO:root:In week 4th, the maximum value returned is 275
+INFO:root:In week 5th, the maximum value returned is 334
+INFO:root:In week 6th, the maximum value returned is 412
+INFO:root:In week 7th, the maximum value returned is 427
+INFO:root:In week 8th, the maximum value returned is 533
+INFO:root:In week 9th, the maximum value returned is 579
+INFO:root:In week 10th, the maximum value returned is 619
+INFO:root:maximum revenue received from the corrected algorithm: 619
+INFO:root:with path: L1 --> L2 --> L3 --> None --> L5 --> L6 --> None --> h8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:In week 1th, the maximum value returned is 137
+INFO:root:In week 2th, the maximum value returned is 171
+INFO:root:In week 4th, the maximum value returned is 275
+INFO:root:In week 5th, the maximum value returned is 286
+INFO:root:In week 7th, the maximum value returned is 379
+INFO:root:In week 8th, the maximum value returned is 453
+INFO:root:In week 9th, the maximum value returned is 499
+INFO:root:maximum revenue received from the flawed algorithm: 539
+INFO:root:with path: L1 --> L2 --> None --> h4 --> L5 --> None --> h7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:******Simulate example below:*******
+INFO:root:L = [41, 18, 72, 9, 39, 29, 22, 71, 40, 63]
+INFO:root:h = [83, 128, 14, 32, 78, 77, 119, 11, 101, 44]
+INFO:root:In week 1th, the maximum value returned is 83
+INFO:root:In week 2th, the maximum value returned is 128
+INFO:root:In week 3th, the maximum value returned is 200
+INFO:root:In week 4th, the maximum value returned is 209
+INFO:root:In week 5th, the maximum value returned is 278
+INFO:root:In week 6th, the maximum value returned is 307
+INFO:root:In week 7th, the maximum value returned is 397
+INFO:root:In week 8th, the maximum value returned is 468
+INFO:root:In week 9th, the maximum value returned is 508
+INFO:root:In week 10th, the maximum value returned is 571
+INFO:root:maximum revenue received from the corrected algorithm: 571
+INFO:root:with path: None --> h2 --> L3 --> None --> L5 --> None --> h7 --> L8 --> L9 --> L10
+INFO:root:                                                     
+INFO:root:In week 1th, the maximum value returned is 83
+INFO:root:In week 2th, the maximum value returned is 128
+INFO:root:In week 3th, the maximum value returned is 200
+INFO:root:In week 5th, the maximum value returned is 278
+INFO:root:In week 7th, the maximum value returned is 397
+INFO:root:In week 8th, the maximum value returned is 468
+INFO:root:In week 9th, the maximum value returned is 508
+INFO:root:maximum revenue received from the flawed algorithm: 571
+INFO:root:with path: None --> h2 --> L3 --> None --> h5 --> None --> h7 --> L8 --> L9 --> L10
+INFO:root:                                                     

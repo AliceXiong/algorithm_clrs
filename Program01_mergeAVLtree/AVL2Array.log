@@ -1,0 +1,577 @@
+INFO:root:********************************
+INFO:root:Now I will build Tree1 with 10 elements array 
+INFO:root:Tree1 with array [450, 91, 232, 437, 120, 361, 290, 498, 260, 217]
+INFO:root:In the 1th insert step, I inserted node with key 450
+INFO:root:In the 1th update height step, I updated height value of a node with key 450
+INFO:root:In the 1th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 2th insert step, I inserted node with key 91
+INFO:root:In the 2th update height step, I updated height value of a node with key 91
+INFO:root:In the 2th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 3th insert step, I inserted node with key 91
+INFO:root:In the 3th update height step, I updated height value of a node with key 450
+INFO:root:In the 3th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 4th insert step, I inserted node with key 232
+INFO:root:In the 4th update height step, I updated height value of a node with key 232
+INFO:root:In the 4th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 5th insert step, I inserted node with key 232
+INFO:root:In the 5th update height step, I updated height value of a node with key 91
+INFO:root:In the 5th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 6th insert step, I inserted node with key 232
+INFO:root:In the 6th update height step, I updated height value of a node with key 450
+INFO:root:In the 6th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 1th right rotation step, I made right sub child 232 repalce its parent 91,
+INFO:root:In the 1th right rotation step, I made left sub child 232 repalce its parent 450,
+INFO:root:In the 9th update height step, I didnt update the height value as node is null
+INFO:root:In the 10th update height step, I didnt update the height value as node is null
+INFO:root:In the 10th update height step, I updated height value of a node with key 91
+INFO:root:In the 12th update height step, I didnt update the height value as node is null
+INFO:root:In the 13th update height step, I didnt update the height value as node is null
+INFO:root:In the 13th update height step, I updated height value of a node with key 450
+INFO:root:In the 13th update height step, I updated height value of a node with key 232
+INFO:root:In the 9th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 10th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 10th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 12th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 13th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 13th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 13th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 7th insert step, I inserted node with key 437
+INFO:root:In the 14th update height step, I updated height value of a node with key 437
+INFO:root:In the 14th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 8th insert step, I inserted node with key 437
+INFO:root:In the 15th update height step, I updated height value of a node with key 450
+INFO:root:In the 15th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 9th insert step, I inserted node with key 437
+INFO:root:In the 16th update height step, I updated height value of a node with key 232
+INFO:root:In the 16th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 10th insert step, I inserted node with key 120
+INFO:root:In the 17th update height step, I updated height value of a node with key 120
+INFO:root:In the 17th update balance step, I updated balance value of a node with key 120
+INFO:root:In the 11th insert step, I inserted node with key 120
+INFO:root:In the 18th update height step, I updated height value of a node with key 91
+INFO:root:In the 18th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 12th insert step, I inserted node with key 120
+INFO:root:In the 19th update height step, I updated height value of a node with key 232
+INFO:root:In the 19th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 13th insert step, I inserted node with key 361
+INFO:root:In the 20th update height step, I updated height value of a node with key 361
+INFO:root:In the 20th update balance step, I updated balance value of a node with key 361
+INFO:root:In the 14th insert step, I inserted node with key 361
+INFO:root:In the 21th update height step, I updated height value of a node with key 437
+INFO:root:In the 21th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 15th insert step, I inserted node with key 361
+INFO:root:In the 22th update height step, I updated height value of a node with key 450
+INFO:root:In the 22th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 2th right rotation step, I made left sub child 437 repalce its parent 450,
+INFO:root:In the 25th update height step, I didnt update the height value as node is null
+INFO:root:In the 26th update height step, I didnt update the height value as node is null
+INFO:root:In the 26th update height step, I updated height value of a node with key 361
+INFO:root:In the 28th update height step, I didnt update the height value as node is null
+INFO:root:In the 29th update height step, I didnt update the height value as node is null
+INFO:root:In the 29th update height step, I updated height value of a node with key 450
+INFO:root:In the 29th update height step, I updated height value of a node with key 437
+INFO:root:In the 25th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 26th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 26th update balance step, I updated balance value of a node with key 361
+INFO:root:In the 28th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 29th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 29th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 29th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 16th insert step, I inserted node with key 361
+INFO:root:In the 30th update height step, I updated height value of a node with key 232
+INFO:root:In the 30th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 17th insert step, I inserted node with key 290
+INFO:root:In the 31th update height step, I updated height value of a node with key 290
+INFO:root:In the 31th update balance step, I updated balance value of a node with key 290
+INFO:root:In the 18th insert step, I inserted node with key 290
+INFO:root:In the 32th update height step, I updated height value of a node with key 361
+INFO:root:In the 32th update balance step, I updated balance value of a node with key 361
+INFO:root:In the 19th insert step, I inserted node with key 290
+INFO:root:In the 33th update height step, I updated height value of a node with key 437
+INFO:root:In the 33th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 20th insert step, I inserted node with key 290
+INFO:root:In the 34th update height step, I updated height value of a node with key 232
+INFO:root:In the 34th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 21th insert step, I inserted node with key 498
+INFO:root:In the 35th update height step, I updated height value of a node with key 498
+INFO:root:In the 35th update balance step, I updated balance value of a node with key 498
+INFO:root:In the 22th insert step, I inserted node with key 498
+INFO:root:In the 36th update height step, I updated height value of a node with key 450
+INFO:root:In the 36th update balance step, I updated balance value of a node with key 450
+INFO:root:In the 23th insert step, I inserted node with key 498
+INFO:root:In the 37th update height step, I updated height value of a node with key 437
+INFO:root:In the 37th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 24th insert step, I inserted node with key 498
+INFO:root:In the 38th update height step, I updated height value of a node with key 232
+INFO:root:In the 38th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 25th insert step, I inserted node with key 260
+INFO:root:In the 39th update height step, I updated height value of a node with key 260
+INFO:root:In the 39th update balance step, I updated balance value of a node with key 260
+INFO:root:In the 26th insert step, I inserted node with key 260
+INFO:root:In the 40th update height step, I updated height value of a node with key 290
+INFO:root:In the 40th update balance step, I updated balance value of a node with key 290
+INFO:root:In the 27th insert step, I inserted node with key 260
+INFO:root:In the 41th update height step, I updated height value of a node with key 361
+INFO:root:In the 41th update balance step, I updated balance value of a node with key 361
+INFO:root:In the 3th right rotation step, I made left sub child 290 repalce its parent 361,
+INFO:root:In the 44th update height step, I didnt update the height value as node is null
+INFO:root:In the 45th update height step, I didnt update the height value as node is null
+INFO:root:In the 45th update height step, I updated height value of a node with key 260
+INFO:root:In the 47th update height step, I didnt update the height value as node is null
+INFO:root:In the 48th update height step, I didnt update the height value as node is null
+INFO:root:In the 48th update height step, I updated height value of a node with key 361
+INFO:root:In the 48th update height step, I updated height value of a node with key 290
+INFO:root:In the 44th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 45th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 45th update balance step, I updated balance value of a node with key 260
+INFO:root:In the 47th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 48th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 48th update balance step, I updated balance value of a node with key 361
+INFO:root:In the 48th update balance step, I updated balance value of a node with key 290
+INFO:root:In the 28th insert step, I inserted node with key 260
+INFO:root:In the 49th update height step, I updated height value of a node with key 437
+INFO:root:In the 49th update balance step, I updated balance value of a node with key 437
+INFO:root:In the 29th insert step, I inserted node with key 260
+INFO:root:In the 50th update height step, I updated height value of a node with key 232
+INFO:root:In the 50th update balance step, I updated balance value of a node with key 232
+INFO:root:In the 30th insert step, I inserted node with key 217
+INFO:root:In the 51th update height step, I updated height value of a node with key 217
+INFO:root:In the 51th update balance step, I updated balance value of a node with key 217
+INFO:root:In the 31th insert step, I inserted node with key 217
+INFO:root:In the 52th update height step, I updated height value of a node with key 120
+INFO:root:In the 52th update balance step, I updated balance value of a node with key 120
+INFO:root:In the 32th insert step, I inserted node with key 217
+INFO:root:In the 53th update height step, I updated height value of a node with key 91
+INFO:root:In the 53th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 2th right rotation step, I made right sub child 120 repalce its parent 91,
+INFO:root:In the 56th update height step, I didnt update the height value as node is null
+INFO:root:In the 57th update height step, I didnt update the height value as node is null
+INFO:root:In the 57th update height step, I updated height value of a node with key 91
+INFO:root:In the 59th update height step, I didnt update the height value as node is null
+INFO:root:In the 60th update height step, I didnt update the height value as node is null
+INFO:root:In the 60th update height step, I updated height value of a node with key 217
+INFO:root:In the 60th update height step, I updated height value of a node with key 120
+INFO:root:In the 56th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 57th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 57th update balance step, I updated balance value of a node with key 91
+INFO:root:In the 59th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 60th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 60th update balance step, I updated balance value of a node with key 217
+INFO:root:In the 60th update balance step, I updated balance value of a node with key 120
+INFO:root:In the 33th insert step, I inserted node with key 217
+INFO:root:In the 61th update height step, I updated height value of a node with key 232
+INFO:root:In the 61th update balance step, I updated balance value of a node with key 232
+INFO:root:when Tree has 10 nodes, takes 10 steps to transform it into a sorted array
+INFO:root:********************************
+INFO:root:Now I will build Tree1 with 20 elements array 
+INFO:root:Tree1 with array [374, 480, 396, 373, 243, 244, 172, 132, 489, 76, 18, 43, 239, 131, 307, 433, 139, 496, 292, 397]
+INFO:root:In the 1th insert step, I inserted node with key 374
+INFO:root:In the 1th update height step, I updated height value of a node with key 374
+INFO:root:In the 1th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 2th insert step, I inserted node with key 480
+INFO:root:In the 2th update height step, I updated height value of a node with key 480
+INFO:root:In the 2th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 3th insert step, I inserted node with key 480
+INFO:root:In the 3th update height step, I updated height value of a node with key 374
+INFO:root:In the 3th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 4th insert step, I inserted node with key 396
+INFO:root:In the 4th update height step, I updated height value of a node with key 396
+INFO:root:In the 4th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 5th insert step, I inserted node with key 396
+INFO:root:In the 5th update height step, I updated height value of a node with key 480
+INFO:root:In the 5th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 6th insert step, I inserted node with key 396
+INFO:root:In the 6th update height step, I updated height value of a node with key 374
+INFO:root:In the 6th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 1th right rotation step, I made left sub child 396 repalce its parent 480,
+INFO:root:In the 1th right rotation step, I made right sub child 396 repalce its parent 374,
+INFO:root:In the 9th update height step, I didnt update the height value as node is null
+INFO:root:In the 10th update height step, I didnt update the height value as node is null
+INFO:root:In the 10th update height step, I updated height value of a node with key 374
+INFO:root:In the 12th update height step, I didnt update the height value as node is null
+INFO:root:In the 13th update height step, I didnt update the height value as node is null
+INFO:root:In the 13th update height step, I updated height value of a node with key 480
+INFO:root:In the 13th update height step, I updated height value of a node with key 396
+INFO:root:In the 9th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 10th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 10th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 12th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 13th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 13th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 13th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 7th insert step, I inserted node with key 373
+INFO:root:In the 14th update height step, I updated height value of a node with key 373
+INFO:root:In the 14th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 8th insert step, I inserted node with key 373
+INFO:root:In the 15th update height step, I updated height value of a node with key 374
+INFO:root:In the 15th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 9th insert step, I inserted node with key 373
+INFO:root:In the 16th update height step, I updated height value of a node with key 396
+INFO:root:In the 16th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 10th insert step, I inserted node with key 243
+INFO:root:In the 17th update height step, I updated height value of a node with key 243
+INFO:root:In the 17th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 11th insert step, I inserted node with key 243
+INFO:root:In the 18th update height step, I updated height value of a node with key 373
+INFO:root:In the 18th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 12th insert step, I inserted node with key 243
+INFO:root:In the 19th update height step, I updated height value of a node with key 374
+INFO:root:In the 19th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 2th right rotation step, I made left sub child 373 repalce its parent 374,
+INFO:root:In the 22th update height step, I didnt update the height value as node is null
+INFO:root:In the 23th update height step, I didnt update the height value as node is null
+INFO:root:In the 23th update height step, I updated height value of a node with key 243
+INFO:root:In the 25th update height step, I didnt update the height value as node is null
+INFO:root:In the 26th update height step, I didnt update the height value as node is null
+INFO:root:In the 26th update height step, I updated height value of a node with key 374
+INFO:root:In the 26th update height step, I updated height value of a node with key 373
+INFO:root:In the 22th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 23th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 23th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 25th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 26th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 26th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 26th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 13th insert step, I inserted node with key 243
+INFO:root:In the 27th update height step, I updated height value of a node with key 396
+INFO:root:In the 27th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 14th insert step, I inserted node with key 244
+INFO:root:In the 28th update height step, I updated height value of a node with key 244
+INFO:root:In the 28th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 15th insert step, I inserted node with key 244
+INFO:root:In the 29th update height step, I updated height value of a node with key 243
+INFO:root:In the 29th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 16th insert step, I inserted node with key 244
+INFO:root:In the 30th update height step, I updated height value of a node with key 373
+INFO:root:In the 30th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 17th insert step, I inserted node with key 244
+INFO:root:In the 31th update height step, I updated height value of a node with key 396
+INFO:root:In the 31th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 3th right rotation step, I made left sub child 373 repalce its parent 396,
+INFO:root:In the 34th update height step, I didnt update the height value as node is null
+INFO:root:In the 36th update height step, I didnt update the height value as node is null
+INFO:root:In the 37th update height step, I didnt update the height value as node is null
+INFO:root:In the 37th update height step, I updated height value of a node with key 244
+INFO:root:In the 37th update height step, I updated height value of a node with key 243
+INFO:root:In the 40th update height step, I didnt update the height value as node is null
+INFO:root:In the 41th update height step, I didnt update the height value as node is null
+INFO:root:In the 41th update height step, I updated height value of a node with key 374
+INFO:root:In the 43th update height step, I didnt update the height value as node is null
+INFO:root:In the 44th update height step, I didnt update the height value as node is null
+INFO:root:In the 44th update height step, I updated height value of a node with key 480
+INFO:root:In the 44th update height step, I updated height value of a node with key 396
+INFO:root:In the 44th update height step, I updated height value of a node with key 373
+INFO:root:In the 34th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 36th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 37th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 37th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 37th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 40th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 41th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 41th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 43th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 44th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 44th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 44th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 44th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 18th insert step, I inserted node with key 172
+INFO:root:In the 45th update height step, I updated height value of a node with key 172
+INFO:root:In the 45th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 19th insert step, I inserted node with key 172
+INFO:root:In the 46th update height step, I updated height value of a node with key 243
+INFO:root:In the 46th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 20th insert step, I inserted node with key 172
+INFO:root:In the 47th update height step, I updated height value of a node with key 373
+INFO:root:In the 47th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 21th insert step, I inserted node with key 132
+INFO:root:In the 48th update height step, I updated height value of a node with key 132
+INFO:root:In the 48th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 22th insert step, I inserted node with key 132
+INFO:root:In the 49th update height step, I updated height value of a node with key 172
+INFO:root:In the 49th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 23th insert step, I inserted node with key 132
+INFO:root:In the 50th update height step, I updated height value of a node with key 243
+INFO:root:In the 50th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 24th insert step, I inserted node with key 132
+INFO:root:In the 51th update height step, I updated height value of a node with key 373
+INFO:root:In the 51th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 25th insert step, I inserted node with key 489
+INFO:root:In the 52th update height step, I updated height value of a node with key 489
+INFO:root:In the 52th update balance step, I updated balance value of a node with key 489
+INFO:root:In the 26th insert step, I inserted node with key 489
+INFO:root:In the 53th update height step, I updated height value of a node with key 480
+INFO:root:In the 53th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 27th insert step, I inserted node with key 489
+INFO:root:In the 54th update height step, I updated height value of a node with key 396
+INFO:root:In the 54th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 28th insert step, I inserted node with key 489
+INFO:root:In the 55th update height step, I updated height value of a node with key 373
+INFO:root:In the 55th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 29th insert step, I inserted node with key 76
+INFO:root:In the 56th update height step, I updated height value of a node with key 76
+INFO:root:In the 56th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 30th insert step, I inserted node with key 76
+INFO:root:In the 57th update height step, I updated height value of a node with key 132
+INFO:root:In the 57th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 31th insert step, I inserted node with key 76
+INFO:root:In the 58th update height step, I updated height value of a node with key 172
+INFO:root:In the 58th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 4th right rotation step, I made left sub child 132 repalce its parent 172,
+INFO:root:In the 61th update height step, I didnt update the height value as node is null
+INFO:root:In the 62th update height step, I didnt update the height value as node is null
+INFO:root:In the 62th update height step, I updated height value of a node with key 76
+INFO:root:In the 64th update height step, I didnt update the height value as node is null
+INFO:root:In the 65th update height step, I didnt update the height value as node is null
+INFO:root:In the 65th update height step, I updated height value of a node with key 172
+INFO:root:In the 65th update height step, I updated height value of a node with key 132
+INFO:root:In the 61th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 62th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 62th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 64th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 65th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 65th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 65th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 32th insert step, I inserted node with key 76
+INFO:root:In the 66th update height step, I updated height value of a node with key 243
+INFO:root:In the 66th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 33th insert step, I inserted node with key 76
+INFO:root:In the 67th update height step, I updated height value of a node with key 373
+INFO:root:In the 67th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 34th insert step, I inserted node with key 18
+INFO:root:In the 68th update height step, I updated height value of a node with key 18
+INFO:root:In the 68th update balance step, I updated balance value of a node with key 18
+INFO:root:In the 35th insert step, I inserted node with key 18
+INFO:root:In the 69th update height step, I updated height value of a node with key 76
+INFO:root:In the 69th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 36th insert step, I inserted node with key 18
+INFO:root:In the 70th update height step, I updated height value of a node with key 132
+INFO:root:In the 70th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 37th insert step, I inserted node with key 18
+INFO:root:In the 71th update height step, I updated height value of a node with key 243
+INFO:root:In the 71th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 5th right rotation step, I made left sub child 132 repalce its parent 243,
+INFO:root:In the 75th update height step, I didnt update the height value as node is null
+INFO:root:In the 76th update height step, I didnt update the height value as node is null
+INFO:root:In the 76th update height step, I updated height value of a node with key 18
+INFO:root:In the 77th update height step, I didnt update the height value as node is null
+INFO:root:In the 77th update height step, I updated height value of a node with key 76
+INFO:root:In the 80th update height step, I didnt update the height value as node is null
+INFO:root:In the 81th update height step, I didnt update the height value as node is null
+INFO:root:In the 81th update height step, I updated height value of a node with key 172
+INFO:root:In the 83th update height step, I didnt update the height value as node is null
+INFO:root:In the 84th update height step, I didnt update the height value as node is null
+INFO:root:In the 84th update height step, I updated height value of a node with key 244
+INFO:root:In the 84th update height step, I updated height value of a node with key 243
+INFO:root:In the 84th update height step, I updated height value of a node with key 132
+INFO:root:In the 75th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 76th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 76th update balance step, I updated balance value of a node with key 18
+INFO:root:In the 77th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 77th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 80th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 81th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 81th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 83th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 84th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 84th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 84th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 84th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 38th insert step, I inserted node with key 18
+INFO:root:In the 85th update height step, I updated height value of a node with key 373
+INFO:root:In the 85th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 39th insert step, I inserted node with key 43
+INFO:root:In the 86th update height step, I updated height value of a node with key 43
+INFO:root:In the 86th update balance step, I updated balance value of a node with key 43
+INFO:root:In the 40th insert step, I inserted node with key 43
+INFO:root:In the 87th update height step, I updated height value of a node with key 18
+INFO:root:In the 87th update balance step, I updated balance value of a node with key 18
+INFO:root:In the 41th insert step, I inserted node with key 43
+INFO:root:In the 88th update height step, I updated height value of a node with key 76
+INFO:root:In the 88th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 2th right rotation step, I made right sub child 43 repalce its parent 18,
+INFO:root:In the 6th right rotation step, I made left sub child 43 repalce its parent 76,
+INFO:root:In the 91th update height step, I didnt update the height value as node is null
+INFO:root:In the 92th update height step, I didnt update the height value as node is null
+INFO:root:In the 92th update height step, I updated height value of a node with key 18
+INFO:root:In the 94th update height step, I didnt update the height value as node is null
+INFO:root:In the 95th update height step, I didnt update the height value as node is null
+INFO:root:In the 95th update height step, I updated height value of a node with key 76
+INFO:root:In the 95th update height step, I updated height value of a node with key 43
+INFO:root:In the 91th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 92th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 92th update balance step, I updated balance value of a node with key 18
+INFO:root:In the 94th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 95th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 95th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 95th update balance step, I updated balance value of a node with key 43
+INFO:root:In the 42th insert step, I inserted node with key 43
+INFO:root:In the 96th update height step, I updated height value of a node with key 132
+INFO:root:In the 96th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 43th insert step, I inserted node with key 43
+INFO:root:In the 97th update height step, I updated height value of a node with key 373
+INFO:root:In the 97th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 44th insert step, I inserted node with key 239
+INFO:root:In the 98th update height step, I updated height value of a node with key 239
+INFO:root:In the 98th update balance step, I updated balance value of a node with key 239
+INFO:root:In the 45th insert step, I inserted node with key 239
+INFO:root:In the 99th update height step, I updated height value of a node with key 172
+INFO:root:In the 99th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 46th insert step, I inserted node with key 239
+INFO:root:In the 100th update height step, I updated height value of a node with key 243
+INFO:root:In the 100th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 47th insert step, I inserted node with key 239
+INFO:root:In the 101th update height step, I updated height value of a node with key 132
+INFO:root:In the 101th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 48th insert step, I inserted node with key 239
+INFO:root:In the 102th update height step, I updated height value of a node with key 373
+INFO:root:In the 102th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 49th insert step, I inserted node with key 131
+INFO:root:In the 103th update height step, I updated height value of a node with key 131
+INFO:root:In the 103th update balance step, I updated balance value of a node with key 131
+INFO:root:In the 50th insert step, I inserted node with key 131
+INFO:root:In the 104th update height step, I updated height value of a node with key 76
+INFO:root:In the 104th update balance step, I updated balance value of a node with key 76
+INFO:root:In the 51th insert step, I inserted node with key 131
+INFO:root:In the 105th update height step, I updated height value of a node with key 43
+INFO:root:In the 105th update balance step, I updated balance value of a node with key 43
+INFO:root:In the 52th insert step, I inserted node with key 131
+INFO:root:In the 106th update height step, I updated height value of a node with key 132
+INFO:root:In the 106th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 53th insert step, I inserted node with key 131
+INFO:root:In the 107th update height step, I updated height value of a node with key 373
+INFO:root:In the 107th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 54th insert step, I inserted node with key 307
+INFO:root:In the 108th update height step, I updated height value of a node with key 307
+INFO:root:In the 108th update balance step, I updated balance value of a node with key 307
+INFO:root:In the 55th insert step, I inserted node with key 307
+INFO:root:In the 109th update height step, I updated height value of a node with key 244
+INFO:root:In the 109th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 56th insert step, I inserted node with key 307
+INFO:root:In the 110th update height step, I updated height value of a node with key 243
+INFO:root:In the 110th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 57th insert step, I inserted node with key 307
+INFO:root:In the 111th update height step, I updated height value of a node with key 132
+INFO:root:In the 111th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 58th insert step, I inserted node with key 307
+INFO:root:In the 112th update height step, I updated height value of a node with key 373
+INFO:root:In the 112th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 59th insert step, I inserted node with key 433
+INFO:root:In the 113th update height step, I updated height value of a node with key 433
+INFO:root:In the 113th update balance step, I updated balance value of a node with key 433
+INFO:root:In the 60th insert step, I inserted node with key 433
+INFO:root:In the 114th update height step, I updated height value of a node with key 480
+INFO:root:In the 114th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 61th insert step, I inserted node with key 433
+INFO:root:In the 115th update height step, I updated height value of a node with key 396
+INFO:root:In the 115th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 62th insert step, I inserted node with key 433
+INFO:root:In the 116th update height step, I updated height value of a node with key 373
+INFO:root:In the 116th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 63th insert step, I inserted node with key 139
+INFO:root:In the 117th update height step, I updated height value of a node with key 139
+INFO:root:In the 117th update balance step, I updated balance value of a node with key 139
+INFO:root:In the 64th insert step, I inserted node with key 139
+INFO:root:In the 118th update height step, I updated height value of a node with key 172
+INFO:root:In the 118th update balance step, I updated balance value of a node with key 172
+INFO:root:In the 65th insert step, I inserted node with key 139
+INFO:root:In the 119th update height step, I updated height value of a node with key 243
+INFO:root:In the 119th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 66th insert step, I inserted node with key 139
+INFO:root:In the 120th update height step, I updated height value of a node with key 132
+INFO:root:In the 120th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 67th insert step, I inserted node with key 139
+INFO:root:In the 121th update height step, I updated height value of a node with key 373
+INFO:root:In the 121th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 68th insert step, I inserted node with key 496
+INFO:root:In the 122th update height step, I updated height value of a node with key 496
+INFO:root:In the 122th update balance step, I updated balance value of a node with key 496
+INFO:root:In the 69th insert step, I inserted node with key 496
+INFO:root:In the 123th update height step, I updated height value of a node with key 489
+INFO:root:In the 123th update balance step, I updated balance value of a node with key 489
+INFO:root:In the 70th insert step, I inserted node with key 496
+INFO:root:In the 124th update height step, I updated height value of a node with key 480
+INFO:root:In the 124th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 71th insert step, I inserted node with key 496
+INFO:root:In the 125th update height step, I updated height value of a node with key 396
+INFO:root:In the 125th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 3th right rotation step, I made right sub child 480 repalce its parent 396,
+INFO:root:In the 129th update height step, I didnt update the height value as node is null
+INFO:root:In the 130th update height step, I didnt update the height value as node is null
+INFO:root:In the 130th update height step, I updated height value of a node with key 374
+INFO:root:In the 132th update height step, I didnt update the height value as node is null
+INFO:root:In the 133th update height step, I didnt update the height value as node is null
+INFO:root:In the 133th update height step, I updated height value of a node with key 433
+INFO:root:In the 133th update height step, I updated height value of a node with key 396
+INFO:root:In the 135th update height step, I didnt update the height value as node is null
+INFO:root:In the 137th update height step, I didnt update the height value as node is null
+INFO:root:In the 138th update height step, I didnt update the height value as node is null
+INFO:root:In the 138th update height step, I updated height value of a node with key 496
+INFO:root:In the 138th update height step, I updated height value of a node with key 489
+INFO:root:In the 138th update height step, I updated height value of a node with key 480
+INFO:root:In the 129th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 130th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 130th update balance step, I updated balance value of a node with key 374
+INFO:root:In the 132th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 133th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 133th update balance step, I updated balance value of a node with key 433
+INFO:root:In the 133th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 135th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 137th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 138th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 138th update balance step, I updated balance value of a node with key 496
+INFO:root:In the 138th update balance step, I updated balance value of a node with key 489
+INFO:root:In the 138th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 72th insert step, I inserted node with key 496
+INFO:root:In the 139th update height step, I updated height value of a node with key 373
+INFO:root:In the 139th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 73th insert step, I inserted node with key 292
+INFO:root:In the 140th update height step, I updated height value of a node with key 292
+INFO:root:In the 140th update balance step, I updated balance value of a node with key 292
+INFO:root:In the 74th insert step, I inserted node with key 292
+INFO:root:In the 141th update height step, I updated height value of a node with key 307
+INFO:root:In the 141th update balance step, I updated balance value of a node with key 307
+INFO:root:In the 75th insert step, I inserted node with key 292
+INFO:root:In the 142th update height step, I updated height value of a node with key 244
+INFO:root:In the 142th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 7th right rotation step, I made left sub child 292 repalce its parent 307,
+INFO:root:In the 4th right rotation step, I made right sub child 292 repalce its parent 244,
+INFO:root:In the 145th update height step, I didnt update the height value as node is null
+INFO:root:In the 146th update height step, I didnt update the height value as node is null
+INFO:root:In the 146th update height step, I updated height value of a node with key 244
+INFO:root:In the 148th update height step, I didnt update the height value as node is null
+INFO:root:In the 149th update height step, I didnt update the height value as node is null
+INFO:root:In the 149th update height step, I updated height value of a node with key 307
+INFO:root:In the 149th update height step, I updated height value of a node with key 292
+INFO:root:In the 145th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 146th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 146th update balance step, I updated balance value of a node with key 244
+INFO:root:In the 148th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 149th update balance step, I didnt update the balance value as node is null
+INFO:root:In the 149th update balance step, I updated balance value of a node with key 307
+INFO:root:In the 149th update balance step, I updated balance value of a node with key 292
+INFO:root:In the 76th insert step, I inserted node with key 292
+INFO:root:In the 150th update height step, I updated height value of a node with key 243
+INFO:root:In the 150th update balance step, I updated balance value of a node with key 243
+INFO:root:In the 77th insert step, I inserted node with key 292
+INFO:root:In the 151th update height step, I updated height value of a node with key 132
+INFO:root:In the 151th update balance step, I updated balance value of a node with key 132
+INFO:root:In the 78th insert step, I inserted node with key 292
+INFO:root:In the 152th update height step, I updated height value of a node with key 373
+INFO:root:In the 152th update balance step, I updated balance value of a node with key 373
+INFO:root:In the 79th insert step, I inserted node with key 397
+INFO:root:In the 153th update height step, I updated height value of a node with key 397
+INFO:root:In the 153th update balance step, I updated balance value of a node with key 397
+INFO:root:In the 80th insert step, I inserted node with key 397
+INFO:root:In the 154th update height step, I updated height value of a node with key 433
+INFO:root:In the 154th update balance step, I updated balance value of a node with key 433
+INFO:root:In the 81th insert step, I inserted node with key 397
+INFO:root:In the 155th update height step, I updated height value of a node with key 396
+INFO:root:In the 155th update balance step, I updated balance value of a node with key 396
+INFO:root:In the 82th insert step, I inserted node with key 397
+INFO:root:In the 156th update height step, I updated height value of a node with key 480
+INFO:root:In the 156th update balance step, I updated balance value of a node with key 480
+INFO:root:In the 83th insert step, I inserted node with key 397
+INFO:root:In the 157th update height step, I updated height value of a node with key 373
+INFO:root:In the 157th update balance step, I updated balance value of a node with key 373
+INFO:root:when Tree has 20 nodes, takes 30 steps to transform it into a sorted array
+INFO:root:From the implementation above, I can tell that as the size of tree (m) grows, the empirical time complexity is always linear with the size of the tree, that means the time complexity is O(m)

@@ -1,0 +1,148 @@
+INFO:root:Input array with 10 elements selected from [1,10000)
+INFO:root:Input is [162733, 1600, 80113, 165604, 129732, 182306, 18103, 45742, 99342, 137033]
+INFO:root:call partition 5
+INFO:root:randomized parition on 5
+INFO:root:call partition 0
+INFO:root:randomized parition on 0
+INFO:root:call partition 3
+INFO:root:randomized parition on 3
+INFO:root:call partition 1
+INFO:root:randomized parition on 1
+INFO:root:call partition 6
+INFO:root:randomized parition on 6
+INFO:root:call partition 8
+INFO:root:randomized parition on 8
+INFO:root:By sorting 10 elements, it went through 8 comparisions
+INFO:root:Input array with 100 elements selected from [1,10000)
+INFO:root:Input is [115311, 117876, 118251, 49119, 127660, 51103, 13029, 49003, 103090, 41955, 135332, 166389, 87020, 5713, 88936, 53347, 61332, 55383, 192890, 103140, 162905, 26073, 84453, 181614, 75227, 31313, 147854, 119238, 62670, 177497, 17501, 158848, 83811, 195945, 128231, 13103, 156833, 84614, 158672, 164373, 93724, 129427, 123595, 91721, 80137, 57079, 118919, 35089, 190873, 92865, 102266, 137310, 57078, 97062, 92513, 34502, 127271, 176847, 122543, 177562, 127868, 94677, 85801, 1035, 186422, 167924, 187105, 175546, 41208, 35265, 9512, 180753, 109871, 149561, 58262, 91037, 63754, 186714, 132703, 149543, 24574, 109057, 113620, 64109, 178351, 96792, 184769, 154039, 154291, 179692, 178652, 64209, 148340, 149183, 57565, 196379, 76247, 33588, 88478, 70915]
+INFO:root:call partition 4
+INFO:root:randomized parition on 4
+INFO:root:call partition 0
+INFO:root:randomized parition on 0
+INFO:root:call partition 1
+INFO:root:randomized parition on 1
+INFO:root:call partition 3
+INFO:root:randomized parition on 3
+INFO:root:call partition 48
+INFO:root:randomized parition on 48
+INFO:root:call partition 42
+INFO:root:randomized parition on 42
+INFO:root:call partition 27
+INFO:root:randomized parition on 27
+INFO:root:call partition 19
+INFO:root:randomized parition on 19
+INFO:root:call partition 8
+INFO:root:randomized parition on 8
+INFO:root:call partition 6
+INFO:root:randomized parition on 6
+INFO:root:call partition 13
+INFO:root:randomized parition on 13
+INFO:root:call partition 9
+INFO:root:randomized parition on 9
+INFO:root:call partition 12
+INFO:root:randomized parition on 12
+INFO:root:call partition 10
+INFO:root:randomized parition on 10
+INFO:root:call partition 18
+INFO:root:randomized parition on 18
+INFO:root:call partition 17
+INFO:root:randomized parition on 17
+INFO:root:call partition 16
+INFO:root:randomized parition on 16
+INFO:root:call partition 14
+INFO:root:randomized parition on 14
+INFO:root:call partition 21
+INFO:root:randomized parition on 21
+INFO:root:call partition 23
+INFO:root:randomized parition on 23
+INFO:root:call partition 25
+INFO:root:randomized parition on 25
+INFO:root:call partition 39
+INFO:root:randomized parition on 39
+INFO:root:call partition 31
+INFO:root:randomized parition on 31
+INFO:root:call partition 29
+INFO:root:randomized parition on 29
+INFO:root:call partition 37
+INFO:root:randomized parition on 37
+INFO:root:call partition 36
+INFO:root:randomized parition on 36
+INFO:root:call partition 33
+INFO:root:randomized parition on 33
+INFO:root:call partition 34
+INFO:root:randomized parition on 34
+INFO:root:call partition 41
+INFO:root:randomized parition on 41
+INFO:root:call partition 43
+INFO:root:randomized parition on 43
+INFO:root:call partition 45
+INFO:root:randomized parition on 45
+INFO:root:call partition 47
+INFO:root:randomized parition on 47
+INFO:root:call partition 86
+INFO:root:randomized parition on 86
+INFO:root:call partition 51
+INFO:root:randomized parition on 51
+INFO:root:call partition 50
+INFO:root:randomized parition on 50
+INFO:root:call partition 78
+INFO:root:randomized parition on 78
+INFO:root:call partition 69
+INFO:root:randomized parition on 69
+INFO:root:call partition 67
+INFO:root:randomized parition on 67
+INFO:root:call partition 64
+INFO:root:randomized parition on 64
+INFO:root:call partition 61
+INFO:root:randomized parition on 61
+INFO:root:call partition 56
+INFO:root:randomized parition on 56
+INFO:root:call partition 54
+INFO:root:randomized parition on 54
+INFO:root:call partition 52
+INFO:root:randomized parition on 52
+INFO:root:call partition 58
+INFO:root:randomized parition on 58
+INFO:root:call partition 59
+INFO:root:randomized parition on 59
+INFO:root:call partition 62
+INFO:root:randomized parition on 62
+INFO:root:call partition 65
+INFO:root:randomized parition on 65
+INFO:root:call partition 77
+INFO:root:randomized parition on 77
+INFO:root:call partition 75
+INFO:root:randomized parition on 75
+INFO:root:call partition 74
+INFO:root:randomized parition on 74
+INFO:root:call partition 71
+INFO:root:randomized parition on 71
+INFO:root:call partition 72
+INFO:root:randomized parition on 72
+INFO:root:call partition 82
+INFO:root:randomized parition on 82
+INFO:root:call partition 80
+INFO:root:randomized parition on 80
+INFO:root:call partition 83
+INFO:root:randomized parition on 83
+INFO:root:call partition 84
+INFO:root:randomized parition on 84
+INFO:root:call partition 97
+INFO:root:randomized parition on 97
+INFO:root:call partition 91
+INFO:root:randomized parition on 91
+INFO:root:call partition 87
+INFO:root:randomized parition on 87
+INFO:root:call partition 90
+INFO:root:randomized parition on 90
+INFO:root:call partition 88
+INFO:root:randomized parition on 88
+INFO:root:call partition 95
+INFO:root:randomized parition on 95
+INFO:root:call partition 92
+INFO:root:randomized parition on 92
+INFO:root:call partition 94
+INFO:root:randomized parition on 94
+INFO:root:call partition 99
+INFO:root:randomized parition on 99
+INFO:root:By sorting 100 elements, it went through 347 comparisions

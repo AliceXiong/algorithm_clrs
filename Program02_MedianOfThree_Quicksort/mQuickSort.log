@@ -1,0 +1,198 @@
+INFO:root:Input array with 10 elements selected from [1,10000)
+INFO:root:Input is [195231, 12236, 83009, 44947, 54905, 19235, 83264, 56009, 176974, 92666]
+INFO:root:Used 92666 as pivot among [195231, 12236, 83009]
+INFO:root:call partition 7
+INFO:root:randomized parition on 7
+INFO:root:Used 54905 as pivot among [12236, 83009, 44947]
+INFO:root:call partition 3
+INFO:root:randomized parition on 3
+INFO:root:Used 19235 as pivot among [12236, 44947, 19235]
+INFO:root:call partition 1
+INFO:root:randomized parition on 1
+INFO:root:Used 83009 as pivot among [12236, 19235, 44947]
+INFO:root:call partition 5
+INFO:root:randomized parition on 5
+INFO:root:Used 176974 as pivot among [12236, 19235, 44947]
+INFO:root:call partition 8
+INFO:root:randomized parition on 8
+INFO:root:By sorting 10 elements, it went through 18 comparisions
+INFO:root:Input array with 100 elements selected from [1,10000)
+INFO:root:Input is [98250, 131526, 160795, 65794, 25512, 129659, 132738, 157784, 151261, 144181, 167573, 10683, 127806, 138180, 157396, 547, 155506, 109835, 130790, 79336, 193488, 10993, 21757, 92317, 3941, 132191, 142121, 29091, 128563, 192666, 144484, 10978, 101841, 57829, 33390, 159020, 140906, 40935, 38271, 191327, 139440, 69663, 121832, 108517, 94441, 196057, 66556, 49705, 59023, 173932, 37711, 39874, 40523, 184378, 21864, 96606, 28518, 88191, 129134, 158619, 56523, 46684, 181117, 142207, 87948, 96916, 165800, 182453, 2353, 7817, 191586, 73351, 100303, 46759, 138866, 81608, 174481, 75191, 112647, 95595, 33366, 131103, 4116, 197723, 35056, 49358, 22685, 71945, 83696, 154576, 75063, 94778, 73715, 85586, 137452, 45840, 25755, 18665, 141665, 92154]
+INFO:root:Used 98250 as pivot among [98250, 131526, 160795]
+INFO:root:call partition 53
+INFO:root:randomized parition on 53
+INFO:root:Used 28518 as pivot among [92154, 65794, 25512]
+INFO:root:call partition 14
+INFO:root:randomized parition on 14
+INFO:root:Used 25512 as pivot among [25512, 10683, 547]
+INFO:root:call partition 12
+INFO:root:randomized parition on 12
+INFO:root:Used 10978 as pivot among [10683, 547, 10993]
+INFO:root:call partition 6
+INFO:root:randomized parition on 6
+INFO:root:Used 4116 as pivot among [10683, 547, 3941]
+INFO:root:call partition 3
+INFO:root:randomized parition on 3
+INFO:root:Used 2353 as pivot among [547, 3941, 2353]
+INFO:root:call partition 1
+INFO:root:randomized parition on 1
+INFO:root:Used 7817 as pivot among [547, 2353, 3941]
+INFO:root:call partition 4
+INFO:root:randomized parition on 4
+INFO:root:Used 18665 as pivot among [547, 2353, 3941]
+INFO:root:call partition 8
+INFO:root:randomized parition on 8
+INFO:root:Used 21864 as pivot among [547, 2353, 3941]
+INFO:root:call partition 10
+INFO:root:randomized parition on 10
+INFO:root:Used 38271 as pivot among [547, 2353, 3941]
+INFO:root:call partition 20
+INFO:root:randomized parition on 20
+INFO:root:Used 33390 as pivot among [547, 2353, 3941]
+INFO:root:call partition 17
+INFO:root:randomized parition on 17
+INFO:root:Used 29091 as pivot among [547, 2353, 3941]
+INFO:root:call partition 15
+INFO:root:randomized parition on 15
+INFO:root:Used 35056 as pivot among [547, 2353, 3941]
+INFO:root:call partition 18
+INFO:root:randomized parition on 18
+INFO:root:Used 59023 as pivot among [547, 2353, 3941]
+INFO:root:call partition 31
+INFO:root:randomized parition on 31
+INFO:root:Used 46684 as pivot among [547, 2353, 3941]
+INFO:root:call partition 25
+INFO:root:randomized parition on 25
+INFO:root:Used 40935 as pivot among [547, 2353, 3941]
+INFO:root:call partition 23
+INFO:root:randomized parition on 23
+INFO:root:Used 39874 as pivot among [547, 2353, 3941]
+INFO:root:call partition 21
+INFO:root:randomized parition on 21
+INFO:root:Used 49705 as pivot among [547, 2353, 3941]
+INFO:root:call partition 28
+INFO:root:randomized parition on 28
+INFO:root:Used 46759 as pivot among [547, 2353, 3941]
+INFO:root:call partition 26
+INFO:root:randomized parition on 26
+INFO:root:Used 56523 as pivot among [547, 2353, 3941]
+INFO:root:call partition 29
+INFO:root:randomized parition on 29
+INFO:root:Used 88191 as pivot among [547, 2353, 3941]
+INFO:root:call partition 45
+INFO:root:randomized parition on 45
+INFO:root:Used 79336 as pivot among [547, 2353, 3941]
+INFO:root:call partition 40
+INFO:root:randomized parition on 40
+INFO:root:Used 69663 as pivot among [547, 2353, 3941]
+INFO:root:call partition 34
+INFO:root:randomized parition on 34
+INFO:root:Used 65794 as pivot among [547, 2353, 3941]
+INFO:root:call partition 32
+INFO:root:randomized parition on 32
+INFO:root:Used 73715 as pivot among [547, 2353, 3941]
+INFO:root:call partition 37
+INFO:root:randomized parition on 37
+INFO:root:Used 73351 as pivot among [547, 2353, 3941]
+INFO:root:call partition 36
+INFO:root:randomized parition on 36
+INFO:root:Used 75063 as pivot among [547, 2353, 3941]
+INFO:root:call partition 38
+INFO:root:randomized parition on 38
+INFO:root:Used 83696 as pivot among [547, 2353, 3941]
+INFO:root:call partition 42
+INFO:root:randomized parition on 42
+INFO:root:Used 85586 as pivot among [547, 2353, 3941]
+INFO:root:call partition 43
+INFO:root:randomized parition on 43
+INFO:root:Used 92317 as pivot among [547, 2353, 3941]
+INFO:root:call partition 47
+INFO:root:randomized parition on 47
+INFO:root:Used 96606 as pivot among [547, 2353, 3941]
+INFO:root:call partition 51
+INFO:root:randomized parition on 51
+INFO:root:Used 94778 as pivot among [547, 2353, 3941]
+INFO:root:call partition 49
+INFO:root:randomized parition on 49
+INFO:root:Used 174481 as pivot among [547, 2353, 3941]
+INFO:root:call partition 90
+INFO:root:randomized parition on 90
+INFO:root:Used 141665 as pivot among [547, 2353, 3941]
+INFO:root:call partition 74
+INFO:root:randomized parition on 74
+INFO:root:Used 132738 as pivot among [547, 2353, 3941]
+INFO:root:call partition 68
+INFO:root:randomized parition on 68
+INFO:root:Used 129659 as pivot among [547, 2353, 3941]
+INFO:root:call partition 63
+INFO:root:randomized parition on 63
+INFO:root:Used 109835 as pivot among [547, 2353, 3941]
+INFO:root:call partition 57
+INFO:root:randomized parition on 57
+INFO:root:Used 101841 as pivot among [547, 2353, 3941]
+INFO:root:call partition 55
+INFO:root:randomized parition on 55
+INFO:root:Used 127806 as pivot among [547, 2353, 3941]
+INFO:root:call partition 60
+INFO:root:randomized parition on 60
+INFO:root:Used 112647 as pivot among [547, 2353, 3941]
+INFO:root:call partition 58
+INFO:root:randomized parition on 58
+INFO:root:Used 129134 as pivot among [547, 2353, 3941]
+INFO:root:call partition 62
+INFO:root:randomized parition on 62
+INFO:root:Used 131526 as pivot among [547, 2353, 3941]
+INFO:root:call partition 66
+INFO:root:randomized parition on 66
+INFO:root:Used 131103 as pivot among [547, 2353, 3941]
+INFO:root:call partition 65
+INFO:root:randomized parition on 65
+INFO:root:Used 138866 as pivot among [547, 2353, 3941]
+INFO:root:call partition 71
+INFO:root:randomized parition on 71
+INFO:root:Used 138180 as pivot among [547, 2353, 3941]
+INFO:root:call partition 70
+INFO:root:randomized parition on 70
+INFO:root:Used 139440 as pivot among [547, 2353, 3941]
+INFO:root:call partition 72
+INFO:root:randomized parition on 72
+INFO:root:Used 144484 as pivot among [547, 2353, 3941]
+INFO:root:call partition 78
+INFO:root:randomized parition on 78
+INFO:root:Used 142207 as pivot among [547, 2353, 3941]
+INFO:root:call partition 76
+INFO:root:randomized parition on 76
+INFO:root:Used 158619 as pivot among [547, 2353, 3941]
+INFO:root:call partition 84
+INFO:root:randomized parition on 84
+INFO:root:Used 155506 as pivot among [547, 2353, 3941]
+INFO:root:call partition 81
+INFO:root:randomized parition on 81
+INFO:root:Used 151261 as pivot among [547, 2353, 3941]
+INFO:root:call partition 79
+INFO:root:randomized parition on 79
+INFO:root:Used 157784 as pivot among [547, 2353, 3941]
+INFO:root:call partition 83
+INFO:root:randomized parition on 83
+INFO:root:Used 160795 as pivot among [547, 2353, 3941]
+INFO:root:call partition 86
+INFO:root:randomized parition on 86
+INFO:root:Used 167573 as pivot among [547, 2353, 3941]
+INFO:root:call partition 88
+INFO:root:randomized parition on 88
+INFO:root:Used 191586 as pivot among [547, 2353, 3941]
+INFO:root:call partition 95
+INFO:root:randomized parition on 95
+INFO:root:Used 182453 as pivot among [547, 2353, 3941]
+INFO:root:call partition 92
+INFO:root:randomized parition on 92
+INFO:root:Used 191327 as pivot among [547, 2353, 3941]
+INFO:root:call partition 94
+INFO:root:randomized parition on 94
+INFO:root:Used 193488 as pivot among [547, 2353, 3941]
+INFO:root:call partition 97
+INFO:root:randomized parition on 97
+INFO:root:Used 197723 as pivot among [547, 2353, 3941]
+INFO:root:call partition 99
+INFO:root:randomized parition on 99
+INFO:root:By sorting 100 elements, it went through 364 comparisions
