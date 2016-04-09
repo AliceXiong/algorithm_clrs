@@ -1,0 +1,53 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs36 \cf0 \expnd0\expndtw0\kerning0
+Overview-HW2-AliceXiong\
+\pard\pardeftab720\qr
+
+\fs24 \cf0 \
+\pard\pardeftab720
+\cf0 \
+
+\fs36 Elevator.java
+\fs24 \
+It can talk with Building via the Elevator(Building) constructor. The key part is the boardQue[] and waitQue array. It stores the information to let the elevator knows who want to get off on floor i and who want to get in on floor i. \
+\
+So two buttons(methods) are defined in the elevator class. One is boardPassenger button, which can update boardQue[]. The other one is updatewaitQue button, which can update waitQue[]. \
+Image that, when you are in the elevator, you will press floor number to tell elevator which floor you want to go; this is the boardPassenger(method) we defined here. When you are waiting for elevator, you will press down(up) button on that floor, to tell elevator to come picking you up, which is the updatewaitQue(method) we defined here. \
+\
+But elevator has the loading capacity. It will throw exception when the capacity is reach. \
+\
+\
+
+\fs36 Building.java
+\fs24 \
+\pard\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+Within the building, we has one elevator and multiple floors. So in the building constructor, we initialize the elevator and Floor[] designed for this building.  \
+\
+
+\fs36 Floor.java
+\fs24 \
+\pard\pardeftab720
+\cf0 Representing each floor in the building, and each floor the elevator can visit. Floor is within the building. So in the Floor constructor, it initialize the floor number of this Floor, and the building this floor belongs to. \
+Since floor can talk to building, and building can talk to elevator. So floor can get information from elevator as well. Each time when waitForElevator button on the Floor is pressed, Floor tells Elevator to call for updatewaitQue method. Elevator\'92s waitQue array will record how many passengers are waiting for elevator on this Floor. Floor can easily retrieve the number of passengers  on the floor who are waiting for the elevator from getwatiQue method defined in the Elevator. \
+\
+
+\fs36 ElevatorFullException.java
+\fs24 \
+This exception is thrown by elevator when the elevator\'92s maximum capacity is reached. \
+\
+\pard\pardeftab720
+\cf0 \
+\
+\
+\
+\
+\
+\
+}

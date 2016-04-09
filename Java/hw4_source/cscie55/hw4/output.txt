@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
+{\fonttbl\f0\fnil\fcharset0 Monaco;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww16900\viewh9660\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs22 \cf0 NO_LOCKING, 1 -- OK: 5541.739328 transactions/msec\
+NO_LOCKING, 2 -- BROKEN: 6871.349595 transactions/msec	Expected total balances: 100000	Actual: 82553\
+NO_LOCKING, 5 -- BROKEN: 6671.269344 transactions/msec	Expected total balances: 100000	Actual: 65921\
+NO_LOCKING, 10 -- BROKEN: 6434.071416 transactions/msec	Expected total balances: 100000	Actual: 59724\
+NO_LOCKING, 20 -- BROKEN: 6473.151752 transactions/msec	Expected total balances: 100000	Actual: 55736\
+LOCK_BANK, 1 -- OK: 4613.735273 transactions/msec\
+LOCK_BANK, 2 -- OK: 2618.976040 transactions/msec\
+LOCK_BANK, 5 -- OK: 1958.294092 transactions/msec\
+LOCK_BANK, 10 -- OK: 1931.787184 transactions/msec\
+LOCK_BANK, 20 -- OK: 1889.598529 transactions/msec\
+LOCK_ACCOUNTS, 1 -- OK: 3603.854468 transactions/msec\
+LOCK_ACCOUNTS, 2 -- OK: 4665.372012 transactions/msec\
+LOCK_ACCOUNTS, 5 -- OK: 4413.148249 transactions/msec\
+LOCK_ACCOUNTS, 10 -- OK: 4688.000879 transactions/msec\
+LOCK_ACCOUNTS, 20 -- OK: 4468.351915 transactions/msec\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f1\fs24 \cf0 1. \expnd0\expndtw0\kerning0
+Why does the NO_LOCKING test succeed for one thread and fail for 2-20 threads? (It is possible that you will see some successes for larger number of threads. But if you see no failures, then something is amiss.)\
+\pard\tx720\pardeftab720
+\cf0 \
+Without proper locking, it might fail when you have multiple thread withdraw agains the same account\'92s balance. But when you have only 1 thread, this collision won\'92t happen that  is why NO_LOCKING test only succeed for one thread. \
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf0 \kerning1\expnd0\expndtw0 2. \expnd0\expndtw0\kerning0
+How do you explain the change in performance for LOCK_BANK as threads increase from 1 to 20.\
+\pard\tx720\pardeftab720
+\cf0 \expnd0\expndtw0\kerning0
+\
+From the output above, we can notice that,  by using more threads, it is slower compared with using less threads. It is like more people waiting in queue, and it doesn\'92t speed up the activity and just means extra work. \
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 3. \expnd0\expndtw0\kerning0
+How does the performance of LOCK_BANK compare to that of LOCK_ACCOUNTS? How do you explain this?\
+\
+With multiple threads, you can notice that LOCK_ACCOUNTS are faster compared with LOCK_BANK. Since transferLockingAccouts does locking for both the fromAccount and toAccount but not the entire bank. This should provide for greater concurrency, because threads not touching the two Accounts will not be locked. It means that other threads can access the other unlocked accounts. \
+But when you have only one thread, you can notice that LOCK_ACCOUNTS is slower compared with LOCK_BANK. Since transferLockingAccounts method is required to call for synchronized twice here, but for transferLockingBank it only requires one lock here.  And you won\'92t meet any collision issues when you have only 1 thread. Actually, you can notice that NO_LOCKING with 1 thread is even faster here. Since it doesn\'92t need lock at all when you have only one thread. \
+\
+\
+\
+\
+\
+\
+}

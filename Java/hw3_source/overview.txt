@@ -1,0 +1,54 @@
+Yuling Xiong (Alice)
+cscie55 HW3
+
+The big change in homework 3 is the new Passenger object. Now instead of tracking counts of passengers in the waitQue[] and boardQue[] array. Three passenger collections are created in the Floor class. 
+-	residentSet[], I chose HashSet as the collection type to store all the residents on that floor.  The residents are unsorted, they don’t need waiting in line for anything. 
+-	goingUpSet[] and goingDownSet[], I chose ArrayList as the collection type to store all the passengers who are waiting in line. The reason why I picked up ArrayList was because, I could retrieve the passengers in the same order as they were added during the iterator. 
+
+In the Elevator class, I created passengerSet collection to store all the passengers objects who were insider the elevator. 
+-	passengerSet[], I chose HashSet as the collection type . All the passengers with the right destination floor will be disembarked when the elevator moves to the right floor. So they don’t require to be ordered (FIFO).
+ 
+Since Elevator will call the building, and building will call the Floor, then Elevator.move() method can update those 4 collections of passengers correctly. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
